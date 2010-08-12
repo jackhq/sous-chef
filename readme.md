@@ -26,32 +26,32 @@ It creates:
 
 * Install chef on your machine, hopefully you have at least ruby 1.8.7 installed.
 
-    gem install chef
+      gem install chef
     
 * git this project, fork it our clone it:
 
-    git clone git://github.com/jackhq/sous-chef.git
+      git clone git://github.com/jackhq/sous-chef.git
     
 * open the solo.rb file and edit your paths in perspective to where you placed this cookbook repo
 
-    file_cache_path "[your folder]/sous-chef"
-    cookbook_path ["[your folder]/sous-chef/cookbooks","[your folder]/sous-chef/site-cookbooks"]
+      file_cache_path "[your folder]/sous-chef"
+      cookbook_path ["[your folder]/sous-chef/cookbooks","[your folder]/sous-chef/site-cookbooks"]
 
 * in the dna folder modify the create_recipe.json file to your machine specs
 
-    {
-      "run_list": ["recipe[create_recipe]"],
-      "owner": "[YOU]",
-      "group": "[GROUP]",
-      "location": "[your folder]/sous-chef/site-cookbooks",
-      "recipe_name": "[NAME of Your New Recipe]",
-      "recipe_description": "[Description of your new recipe]"
-    }
+      {
+        "run_list": ["recipe[create_recipe]"],
+        "owner": "[YOU]",
+        "group": "[GROUP]",
+        "location": "[your folder]/sous-chef/site-cookbooks",
+        "recipe_name": "[NAME of Your New Recipe]",
+        "recipe_description": "[Description of your new recipe]"
+      }
 
 
 * Run Chef-Solo and generate your scaffold of your new chef recipe
 
-    chef-solo -c solo.rb -j dna/create_recipe.json
+      chef-solo -c solo.rb -j dna/create_recipe.json
     
     
 ## Congradulations! You should now have a Recipe Scaffold ready to go!
@@ -61,11 +61,11 @@ It creates:
 
 * you can archive your cookbooks
 
-    rake chef:tar
+      rake chef:tar
 
 * you can push them to amazon s3 (Edit Rackfile with your bucket of choice)
 
-    rake chef:push
+      rake chef:push
     
 * you can create deployment json files and remotely deploy to servers:
 
