@@ -8,8 +8,6 @@ The current status of this project is FUNCTIONAL, but it has not gone through an
 
 Please use at your own risk...Don't hesitate to leave a comment or submit a pull request 
 
----
-
 ## Description
 
 Sous-Chef, contains a recipe called create_recipe, which basically creates a scaffold of a cookbook.
@@ -23,7 +21,6 @@ It creates:
 * files/default
 * templates/default
 
----
 
 ## How does it work?
 
@@ -59,7 +56,6 @@ It creates:
     
 ## Congradulations! You should now have a Recipe Scaffold ready to go!
 
----
 
 ## What are other things I can do with Sous-Chef?
 
