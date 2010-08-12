@@ -1,0 +1,11 @@
+maintainer "<%= @node[:maintainer] %>"
+maintainer_email "<%= @node[:maintainer_email] %>"
+license "<%= @node[:license] %>"
+long_description IO.read(File.join(File.dirname(__FILE__), 'readme.md'))
+version "<%= @node[:version] %>"
+recipe "<%= @node[:recipe_name] %>", "<%= @node[:recipe_description] %>"
+
+%w{redhat centos debian ubuntu}.each do |os|
+  support os
+end
+  

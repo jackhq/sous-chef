@@ -1,0 +1,8 @@
+{
+  "run_list": ["recipe[create_recipe]"],
+  "owner": "jackhq",
+  "group": "staff",
+  "location": "/Users/jackhq/labs/sous-chef/site-cookbooks",
+  "recipe_name": "say",
+  "recipe_description": "A simple recipe that tells your system to talk"
+}
