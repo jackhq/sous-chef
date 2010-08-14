@@ -54,7 +54,7 @@ It creates:
       chef-solo -c solo.rb -j dna/create_recipe.json
     
     
-## Congradulations! You should now have a Recipe Scaffold ready to go!
+## Congratulations! You should now have a Recipe Scaffold ready to go!
 
 
 ## What are other things I can do with Sous-Chef?

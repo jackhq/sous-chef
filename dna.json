@@ -1,0 +1,8 @@
+{ 
+  'servers': [ 'ec2-184-73-32-12.compute-1.amazonaws.com'],
+  'ssh-auth': 'key',
+  'user': 'ubuntu', 
+  'group': 'ubuntu',
+  'key': "~/.ec2/ec2-dev"
+}
+

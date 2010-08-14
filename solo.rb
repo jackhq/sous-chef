@@ -1,2 +1,2 @@
-file_cache_path "/Users/jackhq/labs/sous-chef"
-cookbook_path ["/Users/jackhq/labs/sous-chef/cookbooks","/Users/jackhq/labs/sous-chef/site-cookbooks"]
+file_cache_path "/Users/twilson63/labs/sous-chef"
+cookbook_path ["/Users/twilson63/labs/sous-chef/site-cookbooks"]

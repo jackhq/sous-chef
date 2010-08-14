@@ -1,3 +1,3 @@
-bash "Say Something" do
-  code "say Welcome to the world of Chef!"
+bash "say" do
+  code "say welcome to chef"
 end

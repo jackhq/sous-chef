@@ -1,4 +1,4 @@
-directory "#{node[:location]}/#{node[:recipe_name]}" do
+directory"#{node[:location]}/#{node[:recipe_name]}"  do
   owner node[:owner]
   group node[:group]
   action :create
